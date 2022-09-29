@@ -27,6 +27,7 @@ public class Democalendar {
 		to.sendKeys("Kumbakonam");
 		Thread.sleep(1000);
 		driver.findElement(By.id("search_btn")).click();
+		driver.quit();
 	}
 
 }
